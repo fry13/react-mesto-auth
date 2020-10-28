@@ -1,0 +1,13 @@
+.sign-in__text {
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 14px;
+  line-height: 1.21;
+  color: white;
+}
+
+@media screen and (max-width: 320px) {
+  .sign-in__text {
+    margin: 20px 0 0 0;
+  }
+}

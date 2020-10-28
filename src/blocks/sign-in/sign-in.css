@@ -1,0 +1,20 @@
+@import './__form/sign-in__form.css';
+@import './__title/sign-in__title.css';
+@import './__text/sign-in__text.css';
+@import './__link/sign-in__link.css';
+@import './__button/sign-in__button.css';
+@import './__input/sign-in__input.css';
+
+.sign-in {
+  align-items: center;
+  padding: 60px 0 60px 0;
+  display: flex;
+
+  flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+  .sign-in {
+    padding: 40px 27px
+  }
+}

@@ -1,0 +1,17 @@
+.elements__like {
+  background: url(../../../images/like.svg) no-repeat bottom -1px center;
+  height: 18.13px;
+  width: 20.76px;
+  border: 0;
+  transition: ease-out .2s;
+  cursor: pointer;
+}
+
+.elements__like:hover{
+  opacity: .6;
+  transition: ease-in .2s;
+}
+
+.elements__like:focus {
+  outline: none;
+}
