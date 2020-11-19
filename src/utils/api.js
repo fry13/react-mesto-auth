@@ -1,8 +1,7 @@
 import {identity} from './utils'
 
 class Api {
-  constructor({token, url}) {
-    //this._token = token;
+  constructor({url}) {
     this._url = url;
   }
 
@@ -12,8 +11,7 @@ class Api {
     if (res.ok) {
       return res.json();
     } else {
-      console.error(`Oops! Error: ${res.status}`)
-      //return Promise.reject(`Oops! Error: ${res.status}`);
+      return Promise.reject(`Oops! Error: ${res.status}`);
     }
   }
 
